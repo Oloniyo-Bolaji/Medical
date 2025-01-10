@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -64,15 +64,6 @@ const App = () => {
 ]
 )
 
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 2
-  };
-  
   return (
     <div className="App">
   <nav id="navbar-example2" className="navbar navbar-expand-sm fixed-top px-3 mb-3" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0">
@@ -120,7 +111,7 @@ const App = () => {
         <div>
           <h3>Get <span className="text-colored">Expert Medical</span> Consultation</h3>
           <p>Exceptional Medical Healthcare services for all ages</p>
-          <button className="btn">Make An Appointment</button>
+          <a className="btn" href="#faqs">Make An Appointment</a>
         </div>
         <div>
           <img src='/medical1.png' />
