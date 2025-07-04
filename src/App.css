@@ -1,0 +1,212 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+:root {
+  scroll-padding-top: 70px; 
+}
+.navbar-brand{
+  background: linear-gradient(to right, #9cdcfe, #f2e0c9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-color{
+  color: #f2e0c9;
+}
+.text-colored{
+  color:#9cdcfe;
+}
+.bg-grey{
+  background: #f7f7f7;
+}
+nav{
+  background:#6495ed;
+}
+.logo span{
+  color:#f2e0c9;
+}
+.header{
+  padding: 40px 0;
+}
+.header div h3{
+  width:300px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.header div p{
+  font-size: 12px;
+  color: darkgrey;
+}
+.header div a{
+  margin-top: 35px ;
+  border: 1px solid #6495ed;
+  padding:5px;
+ color:#6495ed;
+}
+.header div img{
+  width:350px;
+  height:350px;
+}
+.about{
+  background:  #f7f7f7;
+}
+.about div img{
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  border-top-left-radius: 40%;
+  box-shadow: 8px 8px #9cdcfe;
+  width:300px;
+  height: 300px;
+}
+.about div p{
+  font-size: 15px;
+  line-height: 1.5;
+}
+.about div h5{
+  text-transform: uppercase;
+  color: #6495ed;
+  font-weight: bold;
+}
+.service{
+  padding: 20px 0;
+}
+.bord h5{
+  text-transform: uppercase;
+  color: #6495ed;
+  font-weight: bold;
+  border-bottom: 1px solid #6495ed;
+  text-shadow: 1px 1px 2px grey;
+}
+.bord{
+  padding-bottom: 5px;
+}
+.service div div div{
+  box-shadow: 3px 3px 5px #9cdcfe;
+  padding: 15px 10px;
+  border-radius: 15px;
+}
+.service div div div p{
+  font-size:13px;
+  line-height: 1.5;
+}
+.service div div div h6{
+  text-transform: uppercase;
+  color: #6495ed;
+  font-weight: bold;
+}
+ .serv{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 250px);
+  padding: 10px 20px;
+  gap: 20px;
+}
+.slider{
+  padding: 30px 50px;
+  background:#f7f7f7;
+}
+.doctor div h6{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f2e0c9;
+  text-shadow: 1px 1px 2px grey;
+  padding-top: 5px;
+}
+.doctor div p{
+  font-size: 14px;
+  color:darkgrey;
+}
+.form-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  gap:5px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+}
+label{
+  font-size:14px ;
+}
+form input{
+  background: #f7f7f7;
+  padding: 8px;
+  border: none ;
+  width:320px;
+  height:40px;
+}
+form input:focus{
+  outline: none;
+  border: 1px solid #6495ed;
+}
+form button{
+  border: 1px solid #6495ed;
+  padding:5px;
+ color:#6495ed;
+ background: none;
+}
+form select{
+  width:320px;
+  height:40px;
+}
+textarea{
+  width: 320px;
+  height:100px;
+  border: none;
+  background: #f7f7f7
+}
+textarea:focus{
+  outline: none;
+  border: 1px solid #6495ed;
+}
+.faqs{
+  background: #f7f7f7;
+}
+.contact{
+  background: #6495ed;
+}
+footer p{
+  font-size: 16px;
+}
+footer h6{
+  font-weight: bold;
+}
+@media screen and (max-width: 480px){
+  .header div img{
+    display: none;
+  }
+  .header div p{
+    width:200px;
+}
+  .header div h3{
+  width:200px;
+  font-size: 25px;
+}
+  .about div img{
+    display: none;
+  }
+.serv{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(1, 250px);
+  padding: 10px 20px;
+  gap: 20px;
+}
+.contact div div div p{
+  font-size: 16px;
+}
+footer h6{
+  font-weight: bold;
+}
+}
